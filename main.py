@@ -161,8 +161,7 @@ st.markdown(
         <p><span class="emoji">📊</span> <b>Smart Budgeting</b>: AI-driven recommendations based on income, expenses, and spending habits.</p>
         <p><span class="emoji">💹</span> <b>Investment Strategies</b>: Tailored investment suggestions aligned with your financial goals.</p>
         <p><span class="emoji">📉</span> <b>Debt Management</b>: Optimize repayments and manage financial obligations effectively.</p>
-        <p><span class="emoji">🌍</span> <b>Cross-Platform Accessibility</b>: Use our platform on any device, anywhere, anytime.</p>
-        <p><span class="emoji">🔒</span> <b>Banking API Integration</b>: Securely connect with financial institutions for seamless transactions.</p>
+        <p><span class="emoji">🌍</span> <b>Cross-Platform Accessibility</b>: Use our platform on any device, anywhere, anytime.</p>  
     </div>
     """,
     unsafe_allow_html=True
