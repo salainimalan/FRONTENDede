@@ -125,15 +125,49 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-*Key Features:*
+st.markdown(
+    """
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+        
+        .feature-banner {
+            background-color: #1E88E5;  /* Blue background */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-list {
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            padding: 15px;
+            color: #333;
+        }
+        
+        .emoji {
+            font-size: 22px;
+        }
+    </style>
 
-                    \t- 📊 *Smart Budgeting*: AI-driven recommendations based on income, expenses, and spending habits.
-                    - 💹 *Investment Strategies*: Tailored investment suggestions aligned with your financial goals.
-                    - 📉 *Debt Management*: Optimize repayments and manage financial obligations effectively.
-                    - 🌍 *Cross-Platform Accessibility*: Use our platform on any device, anywhere, anytime.
-                    - 🔒 *Banking API Integration*: Securely connect with financial institutions for seamless transactions.
-""")
+    <div class="feature-banner">
+        <h2>🔑 Key Features</h2>
+    </div>
+
+    <div class="feature-list">
+        <p><span class="emoji">📊</span> <b>Smart Budgeting</b>: AI-driven recommendations based on income, expenses, and spending habits.</p>
+        <p><span class="emoji">💹</span> <b>Investment Strategies</b>: Tailored investment suggestions aligned with your financial goals.</p>
+        <p><span class="emoji">📉</span> <b>Debt Management</b>: Optimize repayments and manage financial obligations effectively.</p>
+        <p><span class="emoji">🌍</span> <b>Cross-Platform Accessibility</b>: Use our platform on any device, anywhere, anytime.</p>
+        <p><span class="emoji">🔒</span> <b>Banking API Integration</b>: Securely connect with financial institutions for seamless transactions.</p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
 st.markdown("""
     <div class='cta-button'>
