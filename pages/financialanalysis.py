@@ -63,7 +63,7 @@ if "cluster" not in st.session_state:
     st.session_state.cluster = None
 
 # Predict Cluster
-if st.button("🔍 Find My Cluster", key="cluster_btn"):
+if st.button("🔍 Analyze your finances now", key="cluster_btn"):
     user_data = np.array([[age, income, debt, credit_score, dti_ratio]])
     scaled_data = scaler.transform(user_data)
     st.session_state.cluster = kmeans.predict(scaled_data)[0]
